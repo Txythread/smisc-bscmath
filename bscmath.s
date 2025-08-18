@@ -14,3 +14,5 @@ bscmath-mul-loop:
 	jmp x18
 bscmath-mul-end:
 	#ret
+
+ .ascii "XYZA"
