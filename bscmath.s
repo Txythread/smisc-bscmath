@@ -8,9 +8,9 @@ mul:
 	mov x17, x1
 	mov x0, 0
 bscmath-mul-loop:
-        jmpz x1, x19
-        add x0, x17
-        sub x1, 1
+    jmpz x1, x19
+    add x0, x17
+    sub x1, 1
 	jmp x18
 bscmath-mul-end:
 	#ret
