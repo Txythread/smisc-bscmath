@@ -5,7 +5,7 @@ mul:
 	add x19, bscmath-mul-end@PAGEOFF
 	adrp x18, bscmath-mul-loop@PAGE
 	add x18, bscmath-mul-loop@PAGEOFF
-	mov x17, x1
+	mov x17, x0
 	mov x0, 0
 bscmath-mul-loop:
     jmpz x1, x19
