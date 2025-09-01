@@ -13,6 +13,4 @@ bscmath-mul-loop:
     sub x1, 1
 	jmp x18
 bscmath-mul-end:
-	#ret
-
- .ascii "XYZA"
+	ret
